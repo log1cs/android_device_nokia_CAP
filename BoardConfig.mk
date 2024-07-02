@@ -66,3 +66,6 @@ include device/qcom/sepolicy_vndr/SEPolicy.mk
 
 # Treble
 BOARD_VNDK_VERSION := current
+
+# Vendor security patch level
+VENDOR_SECURITY_PATCH := 2023-02-01

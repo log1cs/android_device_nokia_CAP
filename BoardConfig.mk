@@ -8,11 +8,7 @@ DEVICE_PATH := device/nokia/CAP
 
 # A/B
 AB_OTA_UPDATER := true
-AB_OTA_PARTITIONS += boot dtbo system vendor system_ext product vbmeta vbmeta_system
-
-# Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := trinket
-TARGET_NO_BOOTLOADER := true
+AB_OTA_PARTITIONS := boot dtbo system vendor system_ext product vbmeta vbmeta_system
 
 # Architecture
 TARGET_ARCH := arm64
@@ -28,6 +24,13 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a73
+
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := trinket
+TARGET_NO_BOOTLOADER := true
+
+# Kernel
+TARGET_KERNEL_CONFIG := lineageos_CAP_defconfig
 
 # Partitions
 -include vendor/lineage/config/BoardConfigReservedSize.mk
@@ -51,5 +54,9 @@ BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := trinket
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno610
 
-# Kernel
-TARGET_KERNEL_CONFIG := lineageos_CAP_defconfig
+# Recovery
+BOARD_INCLUDE_DTB_IN_BOOTIMG := true
+BOARD_INCLUDE_RECOVERY_DTBO := true
+TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
+TARGET_USERIMAGES_USE_EXT4 := true
+TARGET_USERIMAGES_USE_F2FS := true

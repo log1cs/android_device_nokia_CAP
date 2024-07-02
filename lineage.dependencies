@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "android_kernel_nokia_sm6125",
+    "target_path": "kernel/nokia/sm6125"
+  }
+]

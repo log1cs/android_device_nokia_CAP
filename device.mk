@@ -299,6 +299,17 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
+# Radio
+PRODUCT_PACKAGES += \
+    android.hardware.radio@1.5.vendor \
+    android.hardware.radio.config@1.2.vendor \
+    android.hardware.radio.deprecated@1.0.vendor \
+    libprotobuf-cpp-full \
+    libril \
+    librilutils \
+    librmnetctl \
+    libxml2
+
 # Runtime Resource Overlay
 PRODUCT_ENFORCE_RRO_TARGETS := *
 

@@ -42,6 +42,11 @@ USE_CAMERA_STUB := true
 # Config filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
+# Display
+TARGET_USES_HWC2 := true
+TARGET_USES_GRALLOC1 := true
+TARGET_USES_ION := true
+
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 

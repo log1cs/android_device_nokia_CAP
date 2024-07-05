@@ -420,6 +420,10 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES += \
     vndservicemanager
 
+# VNDK
+PRODUCT_PACKAGES += \
+    libstdc++_vendor
+
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service

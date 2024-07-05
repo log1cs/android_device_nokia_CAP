@@ -72,6 +72,10 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/nokia/trinket
 TARGET_KERNEL_CONFIG := lineageos_CAP_defconfig
 
+# Media
+TARGET_PROVIDES_LIBPLATFORMCONFIG := true
+TARGET_DISABLED_UBWC := true
+
 # Partitions
 -include vendor/lineage/config/BoardConfigReservedSize.mk
 BOARD_FLASH_BLOCK_SIZE := 131072

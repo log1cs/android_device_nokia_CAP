@@ -345,6 +345,11 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-service.multihal \
     libsensorndkbridge
 
+# Tether Offload
+PRODUCT_PACKAGES += \
+    android.hardware.tetheroffload.config@1.0.vendor \
+    android.hardware.tetheroffload.control@1.0.vendor
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \

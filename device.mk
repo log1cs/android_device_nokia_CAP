@@ -287,6 +287,12 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.vulkan.version-1_0_3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_0_3.xml \
     frameworks/native/data/etc/android.hardware.ethernet.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.ethernet.xml
 
+# Power
+PRODUCT_PACKAGES += \
+    libqti-perfd-client \
+    android.hardware.power.stats@1.0-service.mock \
+    android.hardware.power-service.lineage-libperfmgr
+
 # Public libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
@@ -315,7 +321,11 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/google/pixel \
+    hardware/google/interfaces \
+    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/qcom-caf/common/libqti-perfd-client
 
 # Wi-Fi
 PRODUCT_PACKAGES += \

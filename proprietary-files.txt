@@ -1454,7 +1454,8 @@ vendor/lib64/libscveObjectTracker_stub.so
 vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 
-# Sensor
+# Sensors
+vendor/bin/sensors.qti
 vendor/etc/sensors/config/ak991x_dri_0.json
 vendor/etc/sensors/config/bma2x2_0.json
 vendor/etc/sensors/config/nicobar_ak991x_0.json
@@ -1579,6 +1580,8 @@ vendor/etc/sensors/proto/sns_ultra_violet.proto
 vendor/etc/sensors/proto/sns_wrist_tilt_gesture.proto
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
+vendor/lib64/libssc.so
+vendor/lib64/sensors.ssc.so
 
 # Soter
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service

@@ -13,6 +13,9 @@ DEXPREOPT_GENERATE_APEX_IMAGE := true
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS := boot dtbo system vendor system_ext product vbmeta vbmeta_system
 
+# ANT+
+BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a

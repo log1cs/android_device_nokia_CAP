@@ -42,6 +42,9 @@ USE_CAMERA_STUB := true
 # Config filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
+# DRM
+TARGET_ENABLE_MEDIADRM_64 := true
+
 # Kernel
 BOARD_BOOTIMG_HEADER_VERSION := 2
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom androidboot.memcg=1 lpm_levels.sleep_disabled=1

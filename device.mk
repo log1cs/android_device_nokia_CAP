@@ -392,6 +392,23 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.class_main.sh \
+    init.qcom.class_core.sh \
+    init.qcom.early_boot.sh \
+    init.qcom.post_boot.sh \
+    init.qcom.sensors.sh \
+    init.qcom.sh \
+    init.qcom.usb.sh \
+    fstab.qcom \
+    fstab.qcom_ramdisk \
+    init.qcom.rc \
+    init.qcom.usb.rc \
+    init.recovery.qcom.rc \
+    init.target.rc \
+    ueventd.qcom.rc
+
 # Runtime Resource Overlay
 PRODUCT_ENFORCE_RRO_TARGETS := *
 

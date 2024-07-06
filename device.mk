@@ -44,10 +44,15 @@ PRODUCT_PACKAGES += \
     audio.primary.trinket \
     audio.r_submix.default \
     audio.usb.default \
+
+PRODUCT_PACKAGES += \
     libaudio-resampler \
+    libaudioroute \
+    libhfp \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
+    libtinycompress \
     libvolumelistener \
     libssr
 

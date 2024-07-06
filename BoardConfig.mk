@@ -61,6 +61,10 @@ TARGET_ENABLE_MEDIADRM_64 := true
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_nokia
+TARGET_RECOVERY_DEVICE_MODULES := libinit_nokia
+
 # Kernel
 BOARD_BOOTIMG_HEADER_VERSION := 2
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom androidboot.memcg=1 lpm_levels.sleep_disabled=1

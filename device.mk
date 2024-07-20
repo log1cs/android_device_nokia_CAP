@@ -49,6 +49,7 @@ PRODUCT_PACKAGES += \
     libaudio-resampler \
     libaudioroute \
     libhfp \
+    libprocessgroup.vendor \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
@@ -114,7 +115,9 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
     vendor.qti.hardware.camera.device@1.0.vendor \
-    libcamera2ndk_vendor
+    libcamera2ndk_vendor \
+    libgui_vendor \
+    libpng.vendor
 
 # Configstore
 PRODUCT_PACKAGES += \
@@ -380,7 +383,9 @@ PRODUCT_PACKAGES += \
 
 # QMI
 PRODUCT_PACKAGES += \
+    libcurl.vendor:64 \
     libjson \
+    libjsoncpp.vendor \
     libqti_vndfwk_detect \
     libqti_vndfwk_detect.vendor \
     libvndfwk_detect_jni.qti \
@@ -398,6 +403,7 @@ PRODUCT_PACKAGES += \
     libril \
     librilutils \
     librmnetctl \
+    libsqlite.vendor:64 \
     libxml2
 
 # Ramdisk

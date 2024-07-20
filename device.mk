@@ -444,6 +444,9 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/lineage/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client
 
+QCOM_SOONG_NAMESPACE += \
+    $(LOCAL_PATH)/qcom-caf
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-service.multihal \

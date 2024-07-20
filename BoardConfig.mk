@@ -143,9 +143,6 @@ include device/lineage/sepolicy/libperfmgr/sepolicy.mk
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
-# Treble
-BOARD_VNDK_VERSION := current
-
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2023-02-01
 

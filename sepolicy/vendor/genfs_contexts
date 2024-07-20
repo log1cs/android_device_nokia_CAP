@@ -1,0 +1,9 @@
+# DT2W
+genfscon proc  /tp_gesture                         u:object_r:proc_lc_touchpanel:s0
+
+# Panel
+genfscon proc  /tp_grip_area                       u:object_r:proc_lc_touchpanel:s0
+genfscon proc  /tp_lockdown_info                   u:object_r:proc_lc_touchpanel:s0
+genfscon proc  /tp_selftest                        u:object_r:proc_lc_touchpanel:s0
+genfscon proc  /tp_work                            u:object_r:proc_lc_touchpanel:s0
+genfscon proc  /tp_info                            u:object_r:proc_lc_touchpanel:s0

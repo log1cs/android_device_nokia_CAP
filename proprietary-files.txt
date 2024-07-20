@@ -787,10 +787,10 @@ vendor/lib/libadreno_utils.so
 vendor/lib/librs_adreno.so
 vendor/lib/libadreno_app_profiles.so
 vendor/lib/egl/libq3dtools_esx.so
-vendor/lib/egl/libq3dtools_adreno.so
-vendor/lib/egl/libGLESv2_adreno.so
+vendor/lib/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib/libq3dtools_adreno.so
+vendor/lib/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib/libGLESv2_adreno.so
 vendor/lib/egl/libGLESv1_CM_adreno.so
-vendor/lib/egl/libEGL_adreno.so
+vendor/lib/egl/libEGL_adreno.so;SYMLINK=vendor/lib/libEGL_adreno.so
 vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib64/libVkLayer_q3dtools.so
 vendor/lib64/libpvr.so
@@ -806,10 +806,10 @@ vendor/lib64/libadreno_utils.so
 vendor/lib64/libadreno_app_profiles.so
 vendor/lib64/librs_adreno.so
 vendor/lib64/egl/libq3dtools_esx.so
-vendor/lib64/egl/libq3dtools_adreno.so
-vendor/lib64/egl/libGLESv2_adreno.so
+vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so
+vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so
 vendor/lib64/egl/libGLESv1_CM_adreno.so
-vendor/lib64/egl/libEGL_adreno.so
+vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so
 vendor/lib64/egl/eglSubDriverAndroid.so
 
 # Graphics (DRM)
@@ -1186,8 +1186,8 @@ system_ext/lib64/com.qualcomm.qti.uceservice@2.0.so
 system_ext/lib64/com.qualcomm.qti.uceservice@2.1.so
 system_ext/lib64/com.qualcomm.qti.uceservice@2.2.so
 system_ext/lib64/com.qualcomm.qti.uceservice@2.3.so
-system_ext/lib64/libimscamera_jni.so
-system_ext/lib64/libimsmedia_jni.so
+system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so
+system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so
 system_ext/lib64/lib-imsvideocodec.so
 system_ext/lib64/lib-imsvt.so
 system_ext/lib64/lib-imsvtextutils.so

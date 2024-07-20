@@ -784,7 +784,6 @@ vendor/lib/libc2d30_bltlib.so
 vendor/lib/libOpenCL.so
 vendor/lib/libC2D2.so
 vendor/lib/libadreno_utils.so
-vendor/lib/librs_adreno.so
 vendor/lib/libadreno_app_profiles.so
 vendor/lib/egl/libq3dtools_esx.so
 vendor/lib/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib/libq3dtools_adreno.so
@@ -804,7 +803,6 @@ vendor/lib64/libc2d30_bltlib.so
 vendor/lib64/libC2D2.so
 vendor/lib64/libadreno_utils.so
 vendor/lib64/libadreno_app_profiles.so
-vendor/lib64/librs_adreno.so
 vendor/lib64/egl/libq3dtools_esx.so
 vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so
 vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so

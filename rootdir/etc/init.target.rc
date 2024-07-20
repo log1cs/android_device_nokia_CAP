@@ -81,6 +81,7 @@ on post-fs-data
     mkdir /persist/qti_fp 0700 system system
     mkdir /data/vendor/nnhal 0700 system system
     mkdir /data/vendor/silead 0770 system system
+    mkdir /data/vendor/nfc 0770 nfc nfc
 
 on boot
     # DT2W

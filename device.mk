@@ -445,7 +445,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom-caf/common/libqti-perfd-client
 
 QCOM_SOONG_NAMESPACE += \
-    $(LOCAL_PATH)/qcom-caf
+    $(DEVICE_PATH)/qcom-caf
 
 # Sensors
 PRODUCT_PACKAGES += \

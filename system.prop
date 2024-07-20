@@ -68,9 +68,6 @@ persist.data.df.agg.dl_size=4096
 persist.data.df.mux_count=8
 persist.data.df.iwlan_mux=9
 
-# Subsystem restart
-persist.vendor.ssr.restart_level=ALL_ENABLE
-
 # SurfaceFlinger
 debug.sf.enable_hwc_vds=1
 debug.sf.latch_unsignaled=1

@@ -93,7 +93,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/nokia/trinket
-TARGET_KERNEL_CONFIG := vendor/lineageos_CAP_defconfig
+TARGET_KERNEL_CONFIG := vendor/lineageos_CAP_defconfig vendor/debugfs.config
 
 # Media
 TARGET_PROVIDES_LIBPLATFORMCONFIG := true

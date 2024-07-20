@@ -68,11 +68,6 @@ on early-boot
 on late-fs
     mount_all --late
 
-service sec_nvm /vendor/bin/sec_nvm
-    class core
-    user system
-    group system
-
 on post-fs-data
     mkdir /data/vendor/touchpad 0775 system system
     mkdir /data/vendor/hbtp 0750 system system
@@ -180,15 +175,6 @@ service thermal-engine /system/vendor/bin/thermal-engine
    socket thermal-send-rule stream 0660 system system
    group root
 
-on property:vold.decrypt=trigger_restart_framework
-   start vendor.cnss_diag
-
-service vendor.cnss_diag /system/vendor/bin/cnss_diag -q -f -t HELIUM
-   class main
-   user system
-   group system wifi inet sdcard_rw media_rw diag
-   oneshot
-
 service ppd /vendor/bin/mm-pp-dpps
     class late_start
     user system
@@ -205,22 +191,10 @@ on property:init.svc.hwcomposer-2-1=running
 on property:init.svc.hwcomposer-2-1=restarting
     stop ppd
 
-service hbtp /system/vendor/bin/hbtp_daemon
-     class main
-     user system
-     group system
-     disabled
-
 service qfp-daemon /vendor/bin/qfp-daemon
     class late_start
     user system
     group system drmrpc diag input
-
-service energy-awareness /system/vendor/bin/energy-awareness
-    class main
-    user system
-    group system
-    oneshot
 
 service smcinvoked /system/bin/smcinvoked
     class main

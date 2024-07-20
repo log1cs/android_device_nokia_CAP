@@ -100,6 +100,9 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/nokia/sm6125
 TARGET_KERNEL_CONFIG := vendor/lineageos_CAP_defconfig
 
+# Lineage Health
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/battery/charging_enabled
+
 # Media
 TARGET_PROVIDES_LIBPLATFORMCONFIG := true
 TARGET_DISABLED_UBWC := true

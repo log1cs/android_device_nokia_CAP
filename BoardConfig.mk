@@ -74,6 +74,7 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_nokia
 
 # Kernel
 BOARD_BOOTIMG_HEADER_VERSION := 2
+BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom androidboot.memcg=1 lpm_levels.sleep_disabled=1
 BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237 service_locator.enable=1 swiotlb=1 loop.max_part=7
 BOARD_KERNEL_CMDLINE += cgroup.memory=nokmem,nosocket androidboot.init_fatal_reboot_target=recovery
@@ -81,7 +82,7 @@ BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_SEPARATED_DTBO := true
-BOARD_KERNEL_IMAGE_NAME := Image
+BOARD_KERNEL_IMAGE_NAME := Image.gz
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 
 # Kernel configurations
@@ -89,7 +90,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/nokia/trinket
-TARGET_KERNEL_CONFIG := lineageos_CAP_defconfig
+TARGET_KERNEL_CONFIG := vendor/lineageos_CAP_defconfig
 
 # Media
 TARGET_PROVIDES_LIBPLATFORMCONFIG := true
@@ -124,7 +125,6 @@ TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
 
 # Recovery
-BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TARGET_USERIMAGES_USE_EXT4 := true

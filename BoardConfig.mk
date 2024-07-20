@@ -99,6 +99,9 @@ TARGET_KERNEL_CONFIG := vendor/lineageos_CAP_defconfig vendor/debugfs.config
 TARGET_PROVIDES_LIBPLATFORMCONFIG := true
 TARGET_DISABLED_UBWC := true
 
+# Metadata
+BOARD_USES_METADATA_PARTITION := true
+
 # Partitions
 -include vendor/lineage/config/BoardConfigReservedSize.mk
 BOARD_FLASH_BLOCK_SIZE := 262144

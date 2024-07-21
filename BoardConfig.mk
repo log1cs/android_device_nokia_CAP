@@ -11,7 +11,7 @@ DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 # A/B
 AB_OTA_UPDATER := true
-AB_OTA_PARTITIONS := boot dtbo system vendor system_ext product vbmeta vbmeta_system
+AB_OTA_PARTITIONS := boot dtbo recovery system vendor system_ext product vbmeta vbmeta_system
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"

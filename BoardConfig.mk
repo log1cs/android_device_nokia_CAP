@@ -42,6 +42,7 @@ AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := trinket
 TARGET_NO_BOOTLOADER := true
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
 # Board vendor
 BOARD_VENDOR := nokia

@@ -1,2 +1,5 @@
+# ADSP
+type public_adsprpcd_file, file_type;
+
 # DT2W
 type proc_lc_touchpanel, fs_type, proc_type;

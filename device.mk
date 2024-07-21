@@ -7,6 +7,9 @@
 # Platform supports Dynamic Partitions.
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Target is virtual A/B.
+TARGET_IS_VAB := true
+
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 

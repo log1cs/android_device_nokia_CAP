@@ -14,9 +14,6 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Installs gsi keys into ramdisk, to boot a GSI with verified boot.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
-
 # Inherit from NLA device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 

@@ -49,18 +49,6 @@ user: AID_SYSTEM
 group: AID_SYSTEM
 caps: BLOCK_SUSPEND NET_ADMIN
 
-[vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti-lazy]
-mode: 0755
-user: AID_BLUETOOTH
-group: AID_BLUETOOTH
-caps: BLOCK_SUSPEND NET_ADMIN
-
-[system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti-lazy]
-mode: 0755
-user: AID_SYSTEM
-group: AID_SYSTEM
-caps: BLOCK_SUSPEND NET_ADMIN
-
 [system/bin/cnss-daemon]
 mode: 0755
 user: AID_BLUETOOTH
@@ -139,12 +127,6 @@ user: AID_RADIO
 group: AID_RADIO
 caps: NET_BIND_SERVICE BLOCK_SUSPEND WAKE_ALARM
 
-[vendor/bin/imsdaemon]
-mode: 0755
-user: AID_RADIO
-group: AID_RADIO
-caps: NET_BIND_SERVICE BLOCK_SUSPEND WAKE_ALARM
-
 [vendor/bin/cnd]
 mode: 0755
 user: AID_SYSTEM
@@ -156,18 +138,6 @@ mode: 0755
 user: AID_SYSTEM
 group: AID_SYSTEM
 caps: NET_BIND_SERVICE BLOCK_SUSPEND NET_ADMIN
-
-[vendor/bin/slim_daemon]
-mode: 0755
-user:  AID_GPS
-group: AID_GPS
-caps: NET_BIND_SERVICE
-
-[system/vendor/bin/slim_daemon]
-mode: 0755
-user:  AID_GPS
-group: AID_GPS
-caps: NET_BIND_SERVICE
 
 [vendor/bin/loc_launcher]
 mode: 0755

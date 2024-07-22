@@ -673,6 +673,12 @@ vendor/firmware/ili9881x_ts_InnoLux_mp.ini
 vendor/firmware/novatek_ts_tianma_fw.bin
 vendor/firmware/novatek_ts_tianma_mp.bin
 
+# Firmware (Touchscreen - recovery)
+vendor/firmware/ili9881x_ts_InnoLux_fw.hex:recovery/root/vendor/firmware/ili9881x_ts_InnoLux_fw.hex
+vendor/firmware/ili9881x_ts_InnoLux_mp.ini:recovery/root/vendor/firmware/ili9881x_ts_InnoLux_mp.ini
+vendor/firmware/novatek_ts_tianma_fw.bin:recovery/root/vendor/firmware/novatek_ts_tianma_fw.bin
+vendor/firmware/novatek_ts_tianma_mp.bin:recovery/root/vendor/firmware/novatek_ts_tianma_mp.bin
+
 # Firmware (NFC)
 vendor/firmware/sec_s3nrn82_firmware.bin
 

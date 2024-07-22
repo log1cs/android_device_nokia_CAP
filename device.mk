@@ -7,8 +7,8 @@
 # Platform supports Dynamic Partitions.
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
-# Target is virtual A/B.
-TARGET_IS_VAB := true
+# This platform is Retrofit virtual A/B.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota_retrofit.mk)
 
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)

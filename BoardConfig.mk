@@ -58,6 +58,10 @@ USE_CAMERA_STUB := true
 # Config filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
+# Disable sparse for ext/f2fs images
+TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true
+TARGET_USERIMAGES_SPARSE_F2FS_DISABLED := true
+
 # Display
 TARGET_USES_HWC2 := true
 TARGET_USES_GRALLOC1 := true

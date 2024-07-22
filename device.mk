@@ -437,8 +437,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.0-service.multihal \
-    libsensorndkbridge
+    android.hardware.sensors-service.multihal
 
 # Seccomp
 PRODUCT_COPY_FILES += \

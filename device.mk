@@ -422,6 +422,11 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc
 
+PRODUCT_PACKAGES += \
+    e2fsck_ramdisk \
+    tune2fs_ramdisk \
+    resize2fs_ramdisk
+
 # Runtime Resource Overlay
 PRODUCT_ENFORCE_RRO_TARGETS := *
 

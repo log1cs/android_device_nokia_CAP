@@ -102,9 +102,6 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl-qti.recovery \
     android.hardware.boot@1.2-service
 
-PRODUCT_PACKAGES_DEBUG += \
-    bootctl
-
 # Boot animation resolution
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 720

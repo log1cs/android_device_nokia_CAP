@@ -107,7 +107,6 @@ BOARD_RAMDISK_USE_LZ4 := true
 # Kernel configurations
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/nokia/sm6125
 TARGET_KERNEL_CONFIG := vendor/lineageos_CAP_defconfig
 

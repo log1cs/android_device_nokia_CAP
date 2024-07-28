@@ -137,6 +137,8 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.system.qti \
     libvulkan \
     libqdMetaData \
+    libsdmcore \
+    libsdmutils \
     libqdMetaData.system
 
 PRODUCT_PACKAGES += \

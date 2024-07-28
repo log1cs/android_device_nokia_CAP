@@ -151,6 +151,10 @@ ro.hardware.vulkan=adreno
 # GPS
 persist.backup.ntpServer=0.pool.ntp.org
 
+# HWUI
+debug.hwui.target_cpu_time_percent=30
+debug.hwui.use_hint_manager=true
+
 # Media
 debug.stagefright.omx_default_rank=0
 debug.stagefright.ccodec=1

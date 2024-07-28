@@ -26,9 +26,6 @@ ro.fastbootd.available=true
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
-# Netflix
-ro.netflix.bsp_rev=Q845-05000-1
-
 # NFC
 ro.nfc.port=I2C
 

@@ -80,3 +80,6 @@ on init && property:vendor.skip.init=0
     # Report max frequency to unity tasks.
     write /proc/sys/kernel/sched_lib_name "UnityMain,libunity.so"
     write /proc/sys/kernel/sched_lib_mask_force 255
+
+on post-fs
+    start vendor.power-hal-aidl

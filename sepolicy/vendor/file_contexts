@@ -11,3 +11,6 @@
 
 # HALs
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service.captain   u:object_r:hal_light_default_exec:s0
+
+# Time
+/vendor/bin/timekeep                                                          u:object_r:timekeep_exec:s0

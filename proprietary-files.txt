@@ -16,7 +16,7 @@ vendor/etc/acdbdata/adsp_avs_config.acdb
 # ADSP
 vendor/bin/adsprpcd
 vendor/bin/dspservice
-vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc
+vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc|4e4880dc26036be2a5813f41813a28e0f5f05e4c
 vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
 vendor/lib/libadsp_default_listener.so

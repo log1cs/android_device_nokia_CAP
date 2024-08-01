@@ -7,7 +7,6 @@ ro.opa.eligible_device=true
 ro.opa.device_model_id=hmd2019products-captaionamerica-b3ep02
 
 # Bluetooth
-ro.bluetooth.library_name=libbluetooth_qti.so
 persist.vendor.btstack.aac_frm_ctl.enabled=true
 persist.vendor.bluetooth.modem_nv_support=true
 

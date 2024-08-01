@@ -7,3 +7,6 @@ genfscon proc  /tp_lockdown_info                   u:object_r:proc_lc_touchpanel
 genfscon proc  /tp_selftest                        u:object_r:proc_lc_touchpanel:s0
 genfscon proc  /tp_work                            u:object_r:proc_lc_touchpanel:s0
 genfscon proc  /tp_info                            u:object_r:proc_lc_touchpanel:s0
+
+# Lights
+genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-03/1c40000.qcom,spmi:qcom,pmi632@3:qcom,leds@d000/leds        u:object_r:sysfs_leds:s0

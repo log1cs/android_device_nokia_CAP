@@ -79,8 +79,7 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
-    android.hardware.bluetooth.audio-impl \
-    android.hardware.bluetooth.a2dp@1.0.vendor
+    android.hardware.bluetooth.audio-impl
 
 # Boot control
 PRODUCT_PACKAGES += \

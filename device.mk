@@ -318,7 +318,7 @@ PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
     init.qcom.sh \
     fstab.qcom \
-    fstab.qcom_ramdisk \
+    fstab.qcom.ramdisk \
     init.qcom.rc \
     init.power.rc \
     init.recovery.qcom.rc \

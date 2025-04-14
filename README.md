@@ -22,4 +22,9 @@ Nokia 5.3 (codenamed "CAP") is a mid-range smartphone from HMD Global that relea
 
 ![Nokia 5.3](https://cdn-v2.didongviet.vn/files/media/catalog/product/n/o/nokia-5-3.jpg)
 
-**Copyright 2024 - The LineageOS Project**
+```
+#
+# SPDX-FileCopyrightText: 2025 The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+```

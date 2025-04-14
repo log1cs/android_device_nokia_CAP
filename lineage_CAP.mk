@@ -26,8 +26,6 @@ PRODUCT_MODEL := Nokia 5.3
 PRODUCT_GMS_CLIENTID_BASE := android-hmd-rev2
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=CaptainAmerica_00WW \
-    PRIVATE_BUILD_DESC="trinket-user 12 SKQ1.211230.001 00WW_3_490 release-keys"
-
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := Nokia/CaptainAmerica_00WW/CAP_sprout:12/SKQ1.211230.001/00WW_3_490:user/release-keys
+    DeviceProduct=CaptainAmerica_00WW \
+    BuildDesc="trinket-user 12 SKQ1.211230.001 00WW_3_490 release-keys"
+    BuildFingerprint=Nokia/CaptainAmerica_00WW/CAP_sprout:12/SKQ1.211230.001/00WW_3_490:user/release-keys

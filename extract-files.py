@@ -30,8 +30,6 @@ def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
     return f'{lib}_{partition}' if partition == 'vendor' else None
 
 blob_fixups: blob_fixups_user_type = {
-    ('product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml', 'product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml'): blob_fixup()
-	 .regex_replace('version="2.0"', 'version="1.0"'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(

@@ -5,6 +5,3 @@
 
 # Firmware
 /persist(/.*)?                                  u:object_r:mnt_vendor_file:s0
-
-# Partitions
-/dev/block/platform/soc/4744000.sdhci/by-name/metadata                         u:object_r:metadata_block_device:s0

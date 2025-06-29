@@ -5,9 +5,6 @@
 
 DEVICE_PATH := device/nokia/CAP
 
-# APEX
-DEXPREOPT_GENERATE_APEX_IMAGE := true
-
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS := boot dtbo recovery system vendor system_ext product odm vbmeta vbmeta_system

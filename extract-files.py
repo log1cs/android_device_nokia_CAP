@@ -36,6 +36,8 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('__gnu_Unwind_Find_exidx'),
     ('vendor/lib64/mediadrm/libwvdrmengine.so', 'vendor/lib64/libwvhidl.so'): blob_fixup()
         .add_needed('libcrypto_shim.so'),
+    ('vendor/lib64/hw/fingerprint.default.so', 'vendor/lib64/hw/cdfinger.fingerprint.default.so'): blob_fixup()
+	.add_needed('liblog.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(

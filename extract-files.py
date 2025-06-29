@@ -38,6 +38,8 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libcrypto_shim.so'),
     ('vendor/lib64/hw/fingerprint.default.so', 'vendor/lib64/hw/cdfinger.fingerprint.default.so'): blob_fixup()
 	.add_needed('liblog.so'),
+    'vendor/usr/keylayout/gpio-keys.kl': blob_fixup()
+	.regex_replace('GOOGLE', 'ASSIST'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(

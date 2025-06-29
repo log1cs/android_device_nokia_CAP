@@ -171,10 +171,6 @@ PRODUCT_COPY_FILES += \
 # Kernel
 PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
 
-# Kernel modules
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,device/nokia/CAP/prebuilt/modules,$(TARGET_COPY_OUT_VENDOR)/lib/modules)
-
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl

@@ -48,9 +48,6 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 # Board vendor
 BOARD_VENDOR := nokia
 
-# Build flags
-BUILD_BROKEN_DUP_RULES := true
-
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
 USE_CAMERA_STUB := true

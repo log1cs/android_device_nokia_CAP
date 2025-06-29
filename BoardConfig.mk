@@ -48,9 +48,6 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 # Board vendor
 BOARD_VENDOR := nokia
 
-# Camera
-USE_CAMERA_STUB := true
-
 # Config filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 

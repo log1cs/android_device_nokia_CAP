@@ -26,12 +26,6 @@ prebuilt_etc {
 
 // Init scripts
 sh_binary {
-    name: "init.qcom.class_core.sh",
-    src: "init.qcom.class_core.sh",
-    vendor: true,
-}
-
-sh_binary {
     name: "init.class_main.sh",
     src: "init.class_main.sh",
     vendor: true,
